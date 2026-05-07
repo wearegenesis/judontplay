@@ -56,7 +56,6 @@ curl -X POST http://localhost:8000/analyze/bracket \
   -d @examples/qazaqstan_sample_request.json
 ```
 
-<<<<<<< codex/create-python-fastapi-app-for-judo-betting-analysis-ndfqli
 
 ## 5.1) Ejemplo `POST /analyze/tournament`
 
@@ -83,6 +82,32 @@ python scripts/analyze_qazaqstan.py --top 30 --only-positive
 ```
 
 Opcional: `--weight "-60 kg"` para analizar solo un peso.
+
+
+## Endpoint rápido Qazaqstan
+
+- `POST /analyze/qazaqstan`
+  - construye automáticamente el payload desde archivos de ejemplo
+  - analiza los 14 pesos
+
+```bash
+curl -X POST http://localhost:8000/analyze/qazaqstan
+```
+
+## Cómo rellenar cuotas y strengths
+
+- Edita `examples/qazaqstan_2026_odds.json` por peso en:
+  - `odds_winner`
+  - `odds_top4`
+
+- Edita `examples/qazaqstan_2026_strengths.json` por peso y atleta en:
+  - `world_rank`, `ranking_points`, `manual_rating`, `recent_wins`, `recent_losses`, `h2h_wins`, `h2h_losses`
+
+- Regenera payload listo:
+
+```bash
+python scripts/build_tournament_request.py
+```
 
 ## 6) Cómo se calcula `strength_score`
 
@@ -131,37 +156,28 @@ Definiciones:
 `manual_rating` permite corregir el modelo con criterio experto (lesiones recientes, forma no reflejada en ranking, contexto táctico, etc.).
 
 ## 8) Inspección de judobase instalado
-=======
-## 6) Inspección de judobase instalado
->>>>>>> main
 
 ```bash
 python scripts/inspect_judobase.py
 ```
 
-<<<<<<< codex/create-python-fastapi-app-for-judo-betting-analysis-ndfqli
 ## 9) Limitaciones actuales
-=======
-## 7) Limitaciones actuales
->>>>>>> main
+## 9) Limitaciones actuales
 
 - Motor de simulación inicial simplificado.
 - `search_athlete` usa `find_contests` como adapter temporal (no hay search directo de judoka por nombre expuesto actualmente).
 - Si falla Judobase, usa respuestas mock en modo desarrollo.
-<<<<<<< codex/create-python-fastapi-app-for-judo-betting-analysis-ndfqli
 - Este sistema es un modelo inicial para análisis y **no garantiza beneficio**.
 
 ## 10) Roadmap
-=======
+- Este sistema es un modelo inicial para análisis y **no garantiza beneficio**.
 
-## 8) Roadmap
->>>>>>> main
+## 10) Roadmap
 
 - Integrar rating Elo/Glicko por atleta.
 - Simulación Monte Carlo por rounds completos.
 - Mejor parser de brackets IJF.
 - Persistencia de histórico y auditoría de cartera.
-<<<<<<< codex/create-python-fastapi-app-for-judo-betting-analysis-ndfqli
 
 ### Troubleshooting frontend "Failed to fetch"
 
@@ -169,5 +185,3 @@ Si `GET /health` responde OK pero en frontend aparece `Failed to fetch`, normalm
 - CORS mal configurado, o
 - backend no levantado en `http://localhost:8000` (revisar `VITE_API_BASE_URL`).
 
-=======
->>>>>>> main

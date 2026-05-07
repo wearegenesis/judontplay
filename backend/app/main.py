@@ -13,6 +13,7 @@ from app.services.portfolio_builder import build_portfolio
 from app.services.simulation_engine import simulate_bracket_monte_carlo
 from app.services.strength_service import calculate_strength_score
 from app.services.value_engine import detect_value
+from scripts.build_tournament_request import build as build_qazaqstan_request
 
 app = FastAPI(title="Judo Value Analysis API")
 app.add_middleware(
@@ -77,6 +78,28 @@ def analyze_single_bracket(payload: BracketInput) -> AnalyzeResponse:
     )
 
 
+
+
+def _analyze_tournament_payload(payload: TournamentAnalyzeInput) -> TournamentAnalyzeResponse:
+    weight_results = {}
+    global_picks = []
+    warnings = []
+
+    for weight_input in payload.weights:
+        single = BracketInput(competition_name=payload.competition_name, **weight_input.model_dump())
+        result = analyze_single_bracket(single)
+        normalized_weight = normalize_weight(weight_input.weight)
+        weight_results[normalized_weight] = result
+        global_picks.extend(result.recommended_picks)
+        warnings.extend([f"[{normalized_weight}] {w}" for w in result.warnings])
+
+    global_picks = sorted(global_picks, key=lambda p: p.edge, reverse=True)
+    return TournamentAnalyzeResponse(
+        competition_name=payload.competition_name,
+        weights=weight_results,
+        global_recommended_picks=global_picks,
+        warnings=warnings,
+    )
 @app.get("/health")
 async def health():
     return {"status": "ok"}
@@ -104,25 +127,18 @@ async def analyze_bracket(payload: BracketInput):
 
 @app.post("/analyze/tournament", response_model=TournamentAnalyzeResponse)
 async def analyze_tournament(payload: TournamentAnalyzeInput):
-    weight_results = {}
-    global_picks = []
-    warnings = []
+    return _analyze_tournament_payload(payload)
 
-    for weight_input in payload.weights:
-        single = BracketInput(competition_name=payload.competition_name, **weight_input.model_dump())
-        result = analyze_single_bracket(single)
-        normalized_weight = normalize_weight(weight_input.weight)
-        weight_results[normalized_weight] = result
-        global_picks.extend(result.recommended_picks)
-        warnings.extend([f"[{normalized_weight}] {w}" for w in result.warnings])
 
-    global_picks = sorted(global_picks, key=lambda p: p.edge, reverse=True)
-    return TournamentAnalyzeResponse(
-        competition_name=payload.competition_name,
-        weights=weight_results,
-        global_recommended_picks=global_picks,
-        warnings=warnings,
-    )
+@app.get("/examples/qazaqstan/full")
+async def get_qazaqstan_full_example():
+    return build_qazaqstan_request()
+
+
+@app.post("/analyze/qazaqstan", response_model=TournamentAnalyzeResponse)
+async def analyze_qazaqstan():
+    payload = TournamentAnalyzeInput(**build_qazaqstan_request())
+    return _analyze_tournament_payload(payload)
 
 
 @app.post("/portfolio/build")
