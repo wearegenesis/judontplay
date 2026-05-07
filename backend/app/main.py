@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from pathlib import Path
+import json
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -140,6 +142,20 @@ async def analyze_qazaqstan():
     payload = TournamentAnalyzeInput(**build_qazaqstan_request())
     return _analyze_tournament_payload(payload)
 
+
+
+
+@app.get("/qazaqstan/state")
+async def get_qazaqstan_state():
+    ready_path = Path(__file__).resolve().parents[2] / "examples" / "qazaqstan_2026_ready_to_analyze.json"
+    if ready_path.exists():
+        return json.loads(ready_path.read_text())
+    return build_qazaqstan_request()
+
+
+@app.post("/analyze/tournament/custom", response_model=TournamentAnalyzeResponse)
+async def analyze_tournament_custom(payload: TournamentAnalyzeInput):
+    return _analyze_tournament_payload(payload)
 
 @app.post("/portfolio/build")
 async def portfolio(payload: PortfolioBuildInput):

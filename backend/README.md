@@ -162,14 +162,10 @@ python scripts/inspect_judobase.py
 ```
 
 ## 9) Limitaciones actuales
-## 9) Limitaciones actuales
 
 - Motor de simulación inicial simplificado.
 - `search_athlete` usa `find_contests` como adapter temporal (no hay search directo de judoka por nombre expuesto actualmente).
 - Si falla Judobase, usa respuestas mock en modo desarrollo.
-- Este sistema es un modelo inicial para análisis y **no garantiza beneficio**.
-
-## 10) Roadmap
 - Este sistema es un modelo inicial para análisis y **no garantiza beneficio**.
 
 ## 10) Roadmap
@@ -185,3 +181,20 @@ Si `GET /health` responde OK pero en frontend aparece `Failed to fetch`, normalm
 - CORS mal configurado, o
 - backend no levantado en `http://localhost:8000` (revisar `VITE_API_BASE_URL`).
 
+
+## Flujo normal de uso en la app
+
+1. Cargar estado del torneo (`GET /qazaqstan/state`) desde frontend.
+2. Editar por peso en Tournament Editor:
+   - Brackets (pools A/B/C/D)
+   - Cuotas `winner` y `top4`
+3. Lanzar `Analyze edited tournament` (`POST /analyze/tournament/custom`) para usar exactamente esos cambios.
+4. `Analyze Qazaqstan original` usa `POST /analyze/qazaqstan` (archivos del servidor, sin overrides UI).
+
+### Editar brackets
+- Puedes modificar nombres, añadir filas y borrar filas por pool.
+- Si el segundo atleta está vacío, se enviará como `null` (bye).
+
+### Editar cuotas winner/top4
+- Se editan por atleta dentro del peso seleccionado.
+- Si dejas el campo vacío, se elimina la cuota de ese atleta.
