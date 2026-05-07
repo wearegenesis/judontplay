@@ -1,0 +1,44 @@
+{
+  "competition_name": "Qazaqstan Barysy Grand Slam 2026",
+  "weight": "-60 kg",
+  "gender": "M",
+  "bracket": {
+    "A": [
+      ["Yang Yung Wei", null],
+      ["D Angelo Biagio", null],
+      ["Andrasi Marton", null],
+      ["Tomanek Jozef", "Singh Harsh"]
+    ],
+    "B": [
+      ["Shamshadin Magzhan", null],
+      ["Kutscher Nicolas", "Vergnes Richard"],
+      ["Orynbassar Talgat", null],
+      ["Suge-Maadyr Kan-Demir", "Barroso Lopez Luis"]
+    ],
+    "C": [
+      ["Jean Enzo", null],
+      ["Bakhtiyorov Kamoliddin", "Ghayubov Shokir"],
+      ["Byambasuren Sukhbat", null],
+      ["Nurlatuly Sunggatt", null]
+    ],
+    "D": [
+      ["Lesiuk Artem", null],
+      ["Jaring Emiel", "Carlino Andrea"],
+      ["Davlatov Sherzod", null],
+      ["Khabibulaev Turpal", "Simeonidis Konstantin"]
+    ]
+  },
+  "odds_winner": {
+    "Yang Yung Wei": 2.5,
+    "Shamshadin Magzhan": 6.0,
+    "Lesiuk Artem": 8.0,
+    "Jean Enzo": 10.0
+  },
+  "odds_top4": {
+    "Yang Yung Wei": 1.35,
+    "Shamshadin Magzhan": 1.8,
+    "Lesiuk Artem": 2.2,
+    "Jean Enzo": 2.5,
+    "Byambasuren Sukhbat": 3.0
+  }
+}
