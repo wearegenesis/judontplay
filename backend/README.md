@@ -59,6 +59,15 @@ python scripts/build_tournament_request.py
 
 Genera `examples/qazaqstan_2026_ready_to_analyze.json` fusionando brackets + cuotas + strengths.
 
+
+## Análisis local Qazaqstan (CLI)
+
+```bash
+python scripts/analyze_qazaqstan.py --top 30 --only-positive
+```
+
+Opcional: `--weight "-60 kg"` para analizar solo un peso.
+
 ## 6) Cómo se calcula `strength_score`
 
 Modelo inicial de scoring por judoka:
