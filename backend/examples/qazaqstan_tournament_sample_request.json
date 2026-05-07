@@ -1,0 +1,36 @@
+{
+  "competition_name": "Qazaqstan Barysy Grand Slam 2026",
+  "weights": [
+    {
+      "weight": "-60 kg",
+      "gender": "M",
+      "bracket": {
+        "A": [["Yang Yung Wei", "D Angelo Biagio"]],
+        "B": [["Shamshadin Magzhan", "Kutscher Nicolas"]],
+        "C": [["Jean Enzo", "Byambasuren Sukhbat"]],
+        "D": [["Lesiuk Artem", "Jaring Emiel"]]
+      },
+      "odds_winner": {"Yang Yung Wei": 2.5, "Shamshadin Magzhan": 6.0},
+      "odds_top4": {"Yang Yung Wei": 1.35, "Jean Enzo": 2.5},
+      "athlete_strengths": {
+        "Yang Yung Wei": {"world_rank": 8, "ranking_points": 3500, "manual_rating": 88},
+        "Shamshadin Magzhan": {"world_rank": 17, "ranking_points": 2800, "manual_rating": 80}
+      }
+    },
+    {
+      "weight": "-52 kg",
+      "gender": "F",
+      "bracket": {
+        "A": [["Abe Uta", "Athlete F2"]],
+        "B": [["Athlete F3", "Athlete F4"]],
+        "C": [["Athlete F5", "Athlete F6"]],
+        "D": [["Athlete F7", "Athlete F8"]]
+      },
+      "odds_winner": {"Abe Uta": 2.2},
+      "odds_top4": {},
+      "athlete_strengths": {
+        "Abe Uta": {"world_rank": 2, "ranking_points": 4100, "manual_rating": 92}
+      }
+    }
+  ]
+}
