@@ -56,6 +56,7 @@ curl -X POST http://localhost:8000/analyze/bracket \
   -d @examples/qazaqstan_sample_request.json
 ```
 
+<<<<<<< codex/create-python-fastapi-app-for-judo-betting-analysis-ndfqli
 
 ## 5.1) Ejemplo `POST /analyze/tournament`
 
@@ -130,24 +131,37 @@ Definiciones:
 `manual_rating` permite corregir el modelo con criterio experto (lesiones recientes, forma no reflejada en ranking, contexto táctico, etc.).
 
 ## 8) Inspección de judobase instalado
+=======
+## 6) Inspección de judobase instalado
+>>>>>>> main
 
 ```bash
 python scripts/inspect_judobase.py
 ```
 
+<<<<<<< codex/create-python-fastapi-app-for-judo-betting-analysis-ndfqli
 ## 9) Limitaciones actuales
+=======
+## 7) Limitaciones actuales
+>>>>>>> main
 
 - Motor de simulación inicial simplificado.
 - `search_athlete` usa `find_contests` como adapter temporal (no hay search directo de judoka por nombre expuesto actualmente).
 - Si falla Judobase, usa respuestas mock en modo desarrollo.
+<<<<<<< codex/create-python-fastapi-app-for-judo-betting-analysis-ndfqli
 - Este sistema es un modelo inicial para análisis y **no garantiza beneficio**.
 
 ## 10) Roadmap
+=======
+
+## 8) Roadmap
+>>>>>>> main
 
 - Integrar rating Elo/Glicko por atleta.
 - Simulación Monte Carlo por rounds completos.
 - Mejor parser de brackets IJF.
 - Persistencia de histórico y auditoría de cartera.
+<<<<<<< codex/create-python-fastapi-app-for-judo-betting-analysis-ndfqli
 
 ### Troubleshooting frontend "Failed to fetch"
 
@@ -155,3 +169,5 @@ Si `GET /health` responde OK pero en frontend aparece `Failed to fetch`, normalm
 - CORS mal configurado, o
 - backend no levantado en `http://localhost:8000` (revisar `VITE_API_BASE_URL`).
 
+=======
+>>>>>>> main
