@@ -1,0 +1,1011 @@
+{
+  "competition_name": "Qazaqstan Barysy Grand Slam 2026",
+  "weights": [
+    {
+      "weight": "-60 kg",
+      "gender": "M",
+      "bracket": {
+        "A": [
+          [
+            "Yang Yung Wei",
+            null
+          ],
+          [
+            "Biagio D Angelo",
+            null
+          ],
+          [
+            "Marton Andrasi",
+            null
+          ],
+          [
+            "Jozef Tomanek",
+            "Harsh Singh"
+          ]
+        ],
+        "B": [
+          [
+            "Magzhan Shamshadin",
+            null
+          ],
+          [
+            "Nicolas Kutscher",
+            "Richard Vergnes"
+          ],
+          [
+            "Talgat Orynbassar",
+            null
+          ],
+          [
+            "Kan-Demir Suge-Maadyr",
+            "Luis Barroso Lopez"
+          ]
+        ],
+        "C": [
+          [
+            "Enzo Jean",
+            null
+          ],
+          [
+            "Kamoliddin Bakhtiyorov",
+            "Shokir Ghayubov"
+          ],
+          [
+            "Sukhbat Byambasuren",
+            null
+          ],
+          [
+            "Sunggat Nurlatuly",
+            null
+          ]
+        ],
+        "D": [
+          [
+            "Artem Lesiuk",
+            null
+          ],
+          [
+            "Emiel Jaring",
+            "Andrea Carlino"
+          ],
+          [
+            "Sherzod Davlatov",
+            null
+          ],
+          [
+            "Turpal Khabibulaev",
+            "Konstantin Simeonidis"
+          ]
+        ]
+      },
+      "odds_winner": {},
+      "odds_top4": {},
+      "athlete_strengths": {}
+    },
+    {
+      "weight": "-66 kg",
+      "gender": "M",
+      "bracket": {
+        "A": [
+          [
+            "Ronald Lima",
+            null
+          ],
+          [
+            "David Ickes",
+            "Anvarjon Ibrohimov"
+          ],
+          [
+            "Bence Pongracz",
+            "Saigid Kerimov"
+          ],
+          [
+            "Kelvin Ray",
+            "Bauyrzhan Narbayev"
+          ]
+        ],
+        "B": [
+          [
+            "Adrian Nieto Chinarro",
+            null
+          ],
+          [
+            "Ka Ki Wong",
+            "Akylzhan Zhubatkanov"
+          ],
+          [
+            "Willian Lima",
+            null
+          ],
+          [
+            "Seungbeom Jeon",
+            "Matteo Piras"
+          ]
+        ],
+        "C": [
+          [
+            "Ramazan Abdulaev",
+            null
+          ],
+          [
+            "Narmandakh Bayanmunkh",
+            "Radu Izvoreanu"
+          ],
+          [
+            "Nurkanat Serikbayev",
+            null
+          ],
+          [
+            "Alexis Renard",
+            "Alessio De Luca"
+          ]
+        ],
+        "D": [
+          [
+            "Gusman Kyrgyzbayev",
+            null
+          ],
+          [
+            "Rohit Basir Majgul",
+            "Vadym Chernov"
+          ],
+          [
+            "Erkhembayar Battogtokh",
+            null
+          ],
+          [
+            "Abdurakhim Nutfulloev",
+            "Rashad Yelkiyev"
+          ]
+        ]
+      },
+      "odds_winner": {},
+      "odds_top4": {},
+      "athlete_strengths": {}
+    },
+    {
+      "weight": "-73 kg",
+      "gender": "M",
+      "bracket": {
+        "A": [
+          [
+            "Rashid Mammadaliyev",
+            null
+          ],
+          [
+            "Yersultan Duisenkhan",
+            "Arun Kumar"
+          ],
+          [
+            "Karim Abdulaev",
+            "Yryskeldi Dzhumabekov"
+          ],
+          [
+            "Nizomiddinxuja Toshpulatov",
+            "Aron Szabo"
+          ]
+        ],
+        "B": [
+          [
+            "Kazbek Naguchev",
+            "Vlad Mitru"
+          ],
+          [
+            "Lowan Le Bris",
+            "Maxime Gobert"
+          ],
+          [
+            "Uranbayar Odgerel",
+            null
+          ],
+          [
+            "Anuar Zhumageldin",
+            "Shamil Zilfikarov"
+          ]
+        ],
+        "C": [
+          [
+            "Ankhzaya Lavjargal",
+            null
+          ],
+          [
+            "Fabrizio Esposito",
+            "Wiktor Mrowczynski"
+          ],
+          [
+            "Said-Magomed Khalidov",
+            "Eunkyul Lee"
+          ],
+          [
+            "Khojiakbar Toshev",
+            "Angsarbek Gainullin"
+          ]
+        ],
+        "D": [
+          [
+            "Danil Lavrentev",
+            null
+          ],
+          [
+            "Guilherme De Oliveira",
+            "Tengo Zirakashvili"
+          ],
+          [
+            "Yesset Kuanov",
+            null
+          ],
+          [
+            "Aron Gabor",
+            "Eliot Preve"
+          ]
+        ]
+      },
+      "odds_winner": {},
+      "odds_top4": {},
+      "athlete_strengths": {}
+    },
+    {
+      "weight": "-81 kg",
+      "gender": "M",
+      "bracket": {
+        "A": [
+          [
+            "Francois Gauthier Drapeau",
+            null
+          ],
+          [
+            "Elyas Parhizgar",
+            "David Lima"
+          ],
+          [
+            "Bright Maddaloni Nosa",
+            null
+          ],
+          [
+            "Yerzat Argynov",
+            "Vladyslav Kolobov"
+          ]
+        ],
+        "B": [
+          [
+            "Alpha Oumar Djalo",
+            null
+          ],
+          [
+            "Madi Amangeldi",
+            "Kwok Wing Lee"
+          ],
+          [
+            "Petru Pelivan",
+            null
+          ],
+          [
+            "Shinetulga Badrakh",
+            null
+          ]
+        ],
+        "C": [
+          [
+            "Victor Sterpu",
+            null
+          ],
+          [
+            "Bastien Pons",
+            "Jaeyun Sim"
+          ],
+          [
+            "Behruzi Khojazoda",
+            null
+          ],
+          [
+            "Zhalgas Kairolla",
+            "Ratbek Zhumanazarov"
+          ]
+        ],
+        "D": [
+          [
+            "Gabriel Falcao",
+            null
+          ],
+          [
+            "Doskhan Zholzhaxynov",
+            null
+          ],
+          [
+            "Egor Sukhoparov",
+            null
+          ],
+          [
+            "Manuel Parlati",
+            "Harsh Tokas"
+          ]
+        ]
+      },
+      "odds_winner": {},
+      "odds_top4": {},
+      "athlete_strengths": {}
+    },
+    {
+      "weight": "-90 kg",
+      "gender": "M",
+      "bracket": {
+        "A": [
+          [
+            "Rafael Macedo",
+            null
+          ],
+          [
+            "Gergely Nerpel",
+            "Barak Arkabay"
+          ],
+          [
+            "Vlad Visan",
+            "Amir Abbas Choopan"
+          ],
+          [
+            "Karanjit Singh Maan",
+            "Aleksa Mitrovic"
+          ]
+        ],
+        "B": [
+          [
+            "Egor Malkin",
+            null
+          ],
+          [
+            "Muhammadiqbol Toshov",
+            "Aidar Arapov"
+          ],
+          [
+            "Guilherme Schimidt",
+            null
+          ],
+          [
+            "Vojin Mandic",
+            "Tigo Renes"
+          ]
+        ],
+        "C": [
+          [
+            "Mihail Latisev",
+            null
+          ],
+          [
+            "Alan Khubetsov",
+            "Aram Grigorian"
+          ],
+          [
+            "Kenny Komi Bedel",
+            null
+          ],
+          [
+            "Artem Bubyr",
+            "Boris Rutovic"
+          ]
+        ],
+        "D": [
+          [
+            "Christian Parlati",
+            null
+          ],
+          [
+            "Aslan Kotsoev",
+            "Aibol Nyssanali"
+          ],
+          [
+            "Peter Safrany",
+            null
+          ],
+          [
+            "Frank De Wit",
+            "Ramazon Allaberdiev"
+          ]
+        ]
+      },
+      "odds_winner": {},
+      "odds_top4": {},
+      "athlete_strengths": {}
+    },
+    {
+      "weight": "-100 kg",
+      "gender": "M",
+      "bracket": {
+        "A": [
+          [
+            "Leonardo Goncalves",
+            null
+          ],
+          [
+            "Seungju Han",
+            "Muhsin Malaev"
+          ],
+          [
+            "Giovani Ferreira",
+            null
+          ],
+          [
+            "Askar Birzhanov",
+            "Artur Sansyzbekov"
+          ]
+        ],
+        "B": [
+          [
+            "Idar Bifov",
+            null
+          ],
+          [
+            "Beibit Madeyev",
+            "Oleksii Yershov"
+          ],
+          [
+            "Piotr Kuczera",
+            null
+          ],
+          [
+            "Vadim Ghimbovschi",
+            "Francis Damier"
+          ]
+        ],
+        "C": [
+          [
+            "Simeon Catharina",
+            null
+          ],
+          [
+            "Zaur Duniamaliiev",
+            "Caramnob Sagaipov"
+          ],
+          [
+            "Marat Baikamurov",
+            "Mikheili Bekauri"
+          ],
+          [
+            "Michal Jedrzejewski",
+            "Khuderchuluun Bayartsengel"
+          ]
+        ],
+        "D": [
+          [
+            "Zsombor Veg",
+            null
+          ],
+          [
+            "Nikola Pavlovski",
+            "Tulkinbek Turdiev"
+          ],
+          [
+            "Michael Korrel",
+            null
+          ],
+          [
+            "Mukhamed-Ali Mataev",
+            "Max Gregory"
+          ]
+        ]
+      },
+      "odds_winner": {},
+      "odds_top4": {},
+      "athlete_strengths": {}
+    },
+    {
+      "weight": "+100 kg",
+      "gender": "M",
+      "bracket": {
+        "A": [
+          [
+            "Inal Tasoev",
+            null
+          ],
+          [
+            "Perenleijamts Usukhbayar",
+            null
+          ],
+          [
+            "Magomedomar Magomedomarov",
+            null
+          ],
+          [
+            "Dhyan Singh",
+            "Galymzhan Krikbay"
+          ]
+        ],
+        "B": [
+          [
+            "Losseni Kone",
+            null
+          ],
+          [
+            "Marvin Gadeau",
+            "Yelaman Yergaliyev"
+          ],
+          [
+            "Jakub Sordyl",
+            null
+          ],
+          [
+            "Jamal Feyziyev",
+            null
+          ]
+        ],
+        "C": [
+          [
+            "Ushangi Kokauri",
+            null
+          ],
+          [
+            "Zhantilek Nurtilepuly",
+            null
+          ],
+          [
+            "Erik Abramov",
+            null
+          ],
+          [
+            "Yash Ghangas",
+            null
+          ]
+        ],
+        "D": [
+          [
+            "Grzegorz Teresinski",
+            null
+          ],
+          [
+            "Mohammadpouria Banaeian Tolki",
+            null
+          ],
+          [
+            "Tieman Diaby",
+            null
+          ],
+          [
+            "Andzhei Pavliukov",
+            "Sanzhar Zhabborov"
+          ]
+        ]
+      },
+      "odds_winner": {},
+      "odds_top4": {},
+      "athlete_strengths": {}
+    },
+    {
+      "weight": "-48 kg",
+      "gender": "F",
+      "bracket": {
+        "A": [
+          [
+            "Anudari Jamsran",
+            null
+          ],
+          [
+            "Asmita Dey",
+            "Diana Burkeyeva"
+          ],
+          [
+            null,
+            null
+          ],
+          [
+            "Shafag Hamidova",
+            "Aitana Diaz Hernandez"
+          ]
+        ],
+        "B": [
+          [
+            "Sarah Ischt",
+            null
+          ],
+          [
+            "Ayana Duisenbay",
+            "Francesca Milani"
+          ],
+          [
+            "Amber Gersjes",
+            null
+          ],
+          [
+            "Fotimakhon Tursunboeva",
+            "Szabina Szeleczki"
+          ]
+        ],
+        "C": [
+          [
+            "Nar al Nantsetseg Ganbaatar",
+            null
+          ],
+          [
+            "Mireia Rodriguez Salvador",
+            "Patricia Tomankova"
+          ],
+          [
+            "Giulia Ghiglione",
+            null
+          ],
+          [
+            "Tasnim Abduali",
+            "Helen Habib"
+          ]
+        ],
+        "D": [
+          [
+            "Chen-Hao Lin",
+            null
+          ],
+          [
+            "Marine Gilly",
+            "Ingkar Kuralbay"
+          ],
+          [
+            "Konul Aliyeva",
+            null
+          ],
+          [
+            "Sevinch Murodova",
+            "Kristina Dudina"
+          ]
+        ]
+      },
+      "odds_winner": {},
+      "odds_top4": {},
+      "athlete_strengths": {}
+    },
+    {
+      "weight": "-52 kg",
+      "gender": "F",
+      "bracket": {
+        "A": [
+          [
+            "Nandin-Erdene Myagmarsuren",
+            null
+          ],
+          [
+            "Aishabibi Muradimova",
+            null
+          ],
+          [
+            "Liliia Nugaeva",
+            null
+          ],
+          [
+            "Leyla Aliyeva",
+            "Tanishtha Tokas"
+          ]
+        ],
+        "B": [
+          [
+            "Gabriela Conceicao",
+            null
+          ],
+          [
+            "Umida Djumaniyazova",
+            null
+          ],
+          [
+            "Blandine Pont",
+            null
+          ],
+          [
+            "Aruzhan Yerezhepova",
+            "Gaia Stella"
+          ]
+        ],
+        "C": [
+          [
+            "Khorloodoi Bishrelt",
+            null
+          ],
+          [
+            "Fatima Supygaliyeva",
+            "Ilaria Finestrone"
+          ],
+          [
+            "Nicole Marques",
+            null
+          ],
+          [
+            "Pauline Cuq",
+            null
+          ]
+        ],
+        "D": [
+          [
+            "Evelyn Beaton",
+            null
+          ],
+          [
+            "Meruyert Sarsenova",
+            "Gal-Od Tserentogtokh"
+          ],
+          [
+            "Shraddha Kadubal Chopade",
+            null
+          ],
+          [
+            "Gultaj Mammadalyeva",
+            null
+          ]
+        ]
+      },
+      "odds_winner": {},
+      "odds_top4": {},
+      "athlete_strengths": {}
+    },
+    {
+      "weight": "-57 kg",
+      "gender": "F",
+      "bracket": {
+        "A": [
+          [
+            "Faiza Mokdar",
+            null
+          ],
+          [
+            "Tsendbazar Mashbat",
+            null
+          ],
+          [
+            "Yamini Mourya",
+            null
+          ],
+          [
+            "Vita Maidanik",
+            "Karina Karakenova"
+          ]
+        ],
+        "B": [
+          [
+            "Jessica Lima",
+            null
+          ],
+          [
+            "Bakyt Kussakbayeva",
+            null
+          ],
+          [
+            "Sarah Souza",
+            null
+          ],
+          [
+            "Maya Leopold",
+            null
+          ]
+        ],
+        "C": [
+          [
+            "Ariunzaya Terbish",
+            null
+          ],
+          [
+            "Veronica Toniolo",
+            null
+          ],
+          [
+            "Dana Abdiirova",
+            null
+          ],
+          [
+            "Shannon Van De Meeberg",
+            null
+          ]
+        ],
+        "D": [
+          [
+            "Seija Ballhaus",
+            null
+          ],
+          [
+            "Dina Mukhanbet",
+            null
+          ],
+          [
+            "Chloe Devictor",
+            null
+          ],
+          [
+            "Roza Gyertyas",
+            null
+          ]
+        ]
+      },
+      "odds_winner": {},
+      "odds_top4": {},
+      "athlete_strengths": {}
+    },
+    {
+      "weight": "-63 kg",
+      "gender": "F",
+      "bracket": {
+        "A": [
+          [
+            "Joanne Van Lieshout",
+            "Assylzhan Orynbassarova"
+          ],
+          [
+            "Dali Liluashvili",
+            "Anna Kriza"
+          ]
+        ],
+        "B": [
+          [
+            "Gankhaich Bold",
+            "Sevinch Isokova"
+          ],
+          [
+            "Catherine Beauchemin-Pinard",
+            "Samalay Yergaliyeva"
+          ]
+        ],
+        "C": [
+          [
+            "Rafaela Silva",
+            "Kseniia Galitskaia"
+          ],
+          [
+            "Esmigul Kuyulova",
+            "Sara-Joy Bauer"
+          ]
+        ],
+        "D": [
+          [
+            "Enkhriilen Lkhagvatogoo",
+            "Damelya Assylkhanova"
+          ],
+          [
+            "Natalia Kropska",
+            "Julie Falgon"
+          ]
+        ]
+      },
+      "odds_winner": {},
+      "odds_top4": {},
+      "athlete_strengths": {}
+    },
+    {
+      "weight": "-70 kg",
+      "gender": "F",
+      "bracket": {
+        "A": [
+          [
+            "Miriam Butkereit",
+            "Sudaba Aghayeva"
+          ],
+          [
+            "Inunganbi Takhellambam",
+            "Azhar Askhat"
+          ]
+        ],
+        "B": [
+          [
+            "Aleksandra Kowalewska",
+            "Rachael Hawkes"
+          ],
+          [
+            "Sanne Van Dijke",
+            "Florine Soula"
+          ]
+        ],
+        "C": [
+          [
+            "Giorgia Stangherlin",
+            "Moldir Narynova"
+          ],
+          [
+            "Nauana Silva",
+            "Nika Koren"
+          ]
+        ],
+        "D": [
+          [
+            "Clemence Eme",
+            "Anujin Uran-Ulzii"
+          ],
+          [
+            "Giovanna Scoccimarro",
+            "Taibangambi Chanu Khaidem"
+          ]
+        ]
+      },
+      "odds_winner": {},
+      "odds_top4": {},
+      "athlete_strengths": {}
+    },
+    {
+      "weight": "-78 kg",
+      "gender": "F",
+      "bracket": {
+        "A": [
+          [
+            "Anna Monta Olek",
+            null
+          ],
+          [
+            "Migle Julija Dudenaite",
+            "Aruna Jangeldina"
+          ]
+        ],
+        "B": [
+          [
+            "Coralie Godbout",
+            "Khuslen Otgonbayar"
+          ],
+          [
+            "Karol Gimenez",
+            "Ekaterina Tokareva"
+          ]
+        ],
+        "C": [
+          [
+            "Alina Boehm",
+            "Ishroop Narang"
+          ],
+          [
+            "Aleksandra Babintseva",
+            "Shynar Abatova"
+          ]
+        ],
+        "D": [
+          [
+            "Beatriz Freitas",
+            "Saltanat Akhmetova"
+          ],
+          [
+            "Liz Ngelebeya",
+            "Aqulina Chayeb"
+          ]
+        ]
+      },
+      "odds_winner": {},
+      "odds_top4": {},
+      "athlete_strengths": {}
+    },
+    {
+      "weight": "+78 kg",
+      "gender": "F",
+      "bracket": {
+        "A": [
+          [
+            "Erica Simonetti",
+            null
+          ],
+          [
+            "Aida Toishibekova",
+            "Jargalmaa Enkhmend"
+          ]
+        ],
+        "B": [
+          [
+            "Giovanna Santos",
+            "Durdona Nizomaddinova"
+          ],
+          [
+            "Leonie Minkada-Caquineau",
+            "Kamila Berlikash"
+          ]
+        ],
+        "C": [
+          [
+            "Adiyasuren Amarsaikhan",
+            null
+          ],
+          [
+            "Akerke Ramazanova",
+            "Tiziana Marini"
+          ]
+        ],
+        "D": [
+          [
+            "Elis Startseva",
+            null
+          ],
+          [
+            "Nazgul Maratova",
+            "Thauana Silva"
+          ]
+        ]
+      },
+      "odds_winner": {},
+      "odds_top4": {},
+      "athlete_strengths": {}
+    }
+  ]
+}
