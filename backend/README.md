@@ -162,10 +162,14 @@ python scripts/inspect_judobase.py
 ```
 
 ## 9) Limitaciones actuales
+## 9) Limitaciones actuales
 
 - Motor de simulación inicial simplificado.
 - `search_athlete` usa `find_contests` como adapter temporal (no hay search directo de judoka por nombre expuesto actualmente).
 - Si falla Judobase, usa respuestas mock en modo desarrollo.
+- Este sistema es un modelo inicial para análisis y **no garantiza beneficio**.
+
+## 10) Roadmap
 - Este sistema es un modelo inicial para análisis y **no garantiza beneficio**.
 
 ## 10) Roadmap
