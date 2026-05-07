@@ -1,0 +1,62 @@
+{
+  "-60 kg": {
+    "odds_winner": {
+      "Yang Yung Wei": 2.5
+    },
+    "odds_top4": {
+      "Yang Yung Wei": 1.35
+    }
+  },
+  "-66 kg": {
+    "odds_winner": {},
+    "odds_top4": {}
+  },
+  "-73 kg": {
+    "odds_winner": {},
+    "odds_top4": {}
+  },
+  "-81 kg": {
+    "odds_winner": {},
+    "odds_top4": {}
+  },
+  "-90 kg": {
+    "odds_winner": {},
+    "odds_top4": {}
+  },
+  "-100 kg": {
+    "odds_winner": {},
+    "odds_top4": {}
+  },
+  "+100 kg": {
+    "odds_winner": {},
+    "odds_top4": {}
+  },
+  "-48 kg": {
+    "odds_winner": {},
+    "odds_top4": {}
+  },
+  "-52 kg": {
+    "odds_winner": {},
+    "odds_top4": {}
+  },
+  "-57 kg": {
+    "odds_winner": {},
+    "odds_top4": {}
+  },
+  "-63 kg": {
+    "odds_winner": {},
+    "odds_top4": {}
+  },
+  "-70 kg": {
+    "odds_winner": {},
+    "odds_top4": {}
+  },
+  "-78 kg": {
+    "odds_winner": {},
+    "odds_top4": {}
+  },
+  "+78 kg": {
+    "odds_winner": {},
+    "odds_top4": {}
+  }
+}
