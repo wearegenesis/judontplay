@@ -1,0 +1,1 @@
+export default function BackendStatus({online}:{online:boolean|null}){return <div className='p-3 rounded-xl border border-slate-700 bg-slate-900'>Backend: <span className={online?'text-emerald-400':'text-rose-400'}>{online===null?'checking...':online?'online':'offline'}</span></div>}
