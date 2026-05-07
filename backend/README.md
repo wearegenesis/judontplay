@@ -2,6 +2,21 @@
 
 Backend en FastAPI para análisis y simulación de apuestas de value en judo (sin conexión a casas de apuestas).
 
+## Levantar backend + frontend
+
+Terminal 1:
+```bash
+cd backend
+uvicorn app.main:app --reload
+```
+
+Terminal 2:
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
 ## 1) Instalación
 
 ```bash

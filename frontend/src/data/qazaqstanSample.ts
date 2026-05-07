@@ -1,0 +1,2 @@
+const sample={competition_name:'Qazaqstan Barysy Grand Slam 2026',weights:[{weight:'-60 kg',gender:'M',bracket:{A:[['Yang Yung Wei',null]],B:[['Magzhan Shamshadin',null]],C:[['Enzo Jean',null]],D:[['Artem Lesiuk',null]]},odds_winner:{},odds_top4:{},athlete_strengths:{}},{weight:'-52 kg',gender:'F',bracket:{A:[['Nandin-Erdene Myagmarsuren',null]],B:[['Gabriela Conceicao',null]],C:[['Khorloodoi Bishrelt',null]],D:[['Evelyn Beaton',null]]},odds_winner:{},odds_top4:{},athlete_strengths:{}}]};
+export default sample;

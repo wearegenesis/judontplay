@@ -5,6 +5,7 @@ from typing import Any
 
 from app.main import analyze_single_bracket
 from app.models.judo import BracketInput
+from app.services.normalization import normalize_weight
 from scripts.build_tournament_request import build
 
 
@@ -14,7 +15,7 @@ def run_analysis(top: int = 20, only_positive: bool = False, weight: str | None 
     weights_in = payload["weights"]
 
     if weight is not None:
-        weights_in = [w for w in weights_in if w["weight"] == weight]
+        weights_in = [w for w in weights_in if normalize_weight(w["weight"]) == normalize_weight(weight)]
 
     results_by_weight = {}
     global_picks = []
