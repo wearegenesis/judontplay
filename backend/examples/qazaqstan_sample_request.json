@@ -1,0 +1,129 @@
+{
+  "competition_name": "Qazaqstan Barysy Grand Slam 2026",
+  "weight": "-60 kg",
+  "gender": "M",
+  "bracket": {
+    "A": [
+      [
+        "Yang Yung Wei",
+        null
+      ],
+      [
+        "D Angelo Biagio",
+        null
+      ],
+      [
+        "Andrasi Marton",
+        null
+      ],
+      [
+        "Tomanek Jozef",
+        "Singh Harsh"
+      ]
+    ],
+    "B": [
+      [
+        "Shamshadin Magzhan",
+        null
+      ],
+      [
+        "Kutscher Nicolas",
+        "Vergnes Richard"
+      ],
+      [
+        "Orynbassar Talgat",
+        null
+      ],
+      [
+        "Suge-Maadyr Kan-Demir",
+        "Barroso Lopez Luis"
+      ]
+    ],
+    "C": [
+      [
+        "Jean Enzo",
+        null
+      ],
+      [
+        "Bakhtiyorov Kamoliddin",
+        "Ghayubov Shokir"
+      ],
+      [
+        "Byambasuren Sukhbat",
+        null
+      ],
+      [
+        "Nurlatuly Sunggatt",
+        null
+      ]
+    ],
+    "D": [
+      [
+        "Lesiuk Artem",
+        null
+      ],
+      [
+        "Jaring Emiel",
+        "Carlino Andrea"
+      ],
+      [
+        "Davlatov Sherzod",
+        null
+      ],
+      [
+        "Khabibulaev Turpal",
+        "Simeonidis Konstantin"
+      ]
+    ]
+  },
+  "odds_winner": {
+    "Yang Yung Wei": 2.5,
+    "Shamshadin Magzhan": 6.0,
+    "Lesiuk Artem": 8.0,
+    "Jean Enzo": 10.0
+  },
+  "odds_top4": {
+    "Yang Yung Wei": 1.35,
+    "Shamshadin Magzhan": 1.8,
+    "Lesiuk Artem": 2.2,
+    "Jean Enzo": 2.5,
+    "Byambasuren Sukhbat": 3.0
+  },
+  "athlete_strengths": {
+    "Yang Yung Wei": {
+      "world_rank": 8,
+      "ranking_points": 3500,
+      "manual_rating": 88,
+      "recent_wins": 8,
+      "recent_losses": 2
+    },
+    "Lesiuk Artem": {
+      "world_rank": 24,
+      "ranking_points": 2100,
+      "manual_rating": 76,
+      "recent_wins": 6,
+      "recent_losses": 3
+    },
+    "Shamshadin Magzhan": {
+      "world_rank": 17,
+      "ranking_points": 2800,
+      "manual_rating": 80,
+      "recent_wins": 7,
+      "recent_losses": 2
+    },
+    "Jean Enzo": {
+      "world_rank": 32,
+      "ranking_points": 1700,
+      "manual_rating": 72,
+      "recent_wins": 5,
+      "recent_losses": 3
+    },
+    "Byambasuren Sukhbat": {
+      "world_rank": 41,
+      "ranking_points": 1200,
+      "manual_rating": 68,
+      "recent_wins": 4,
+      "recent_losses": 4
+    }
+  }
+}
